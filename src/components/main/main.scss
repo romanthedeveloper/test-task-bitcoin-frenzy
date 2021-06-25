@@ -1,0 +1,64 @@
+.main-content {
+  background: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  span {
+    color: #29335C;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+}
+
+.span-bitcoin {
+  margin: 240px 0 71px 0;
+}
+
+.bitcoin-btn {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  button {
+    margin: 0 10px 10px;
+  }
+}
+
+.span-wallet {
+  &:first-child {
+    margin-top: 263px;
+  }
+
+  &:nth-child(2) {
+    margin-top: 58px;
+  }
+}
+
+.wallet-btn {
+  display: flex;
+  flex-direction: column;
+  padding-top: 76px;
+
+  button:nth-child(2) {
+    margin-top: 21px;
+  }
+}
+
+.span-buy {
+  &:first-child {
+    margin-top: 260px;
+  }
+
+  &:nth-child(2) {
+    margin-top: 65px;
+  }
+}
+
+.buy-btn {
+  button {
+    margin-top: 57px;
+  }
+}

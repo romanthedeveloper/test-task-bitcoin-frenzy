@@ -1,0 +1,27 @@
+.header {
+  height: 68px;
+  width: 100%;
+  background: #394577;
+  display: flex;
+  justify-content: space-between;
+  color: #CED4EB;
+  font-size: 14px;
+}
+
+.conversion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-owns {
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  span:first-child {
+    margin-bottom: 9px;
+  }
+}
